@@ -1,8 +1,4 @@
-# Everybody Code ![status](https://github.com/pmareke/everybody-codes/actions/workflows/app.yml/badge.svg)
-
-- This repository is meant to be used as a fast starter point.
-- The Python version is the 3.12.
-- The project has configured a [Github Action](https://github.com/pmareke/python-boilerplate/actions) which runs on every push to the `main` branch.
+# [Everybody Code](https://everybody.codes) ![status](https://github.com/pmareke/everybody-codes/actions/workflows/app.yml/badge.svg)
 
 ## Requirements
 
@@ -53,9 +49,3 @@ This project uses [uv](https://docs.astral.sh/uv) as the package manager.
 
 - [ty](https://github.com/astral-sh/ty): A static type checker.
 - [ruff](https://github.com/astral-sh/ruff): An extremely fast Python linter, written in Rust..
-
-## Contributors
-
-Special thanks to:
-- [GoldraK](https://github.com/GoldraK).
-- [Alex Lopez](https://github.com/alexlopezc)
