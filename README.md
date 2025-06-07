@@ -1,4 +1,4 @@
-# [Everybody Code](https://everybody.codes) ![status](https://github.com/pmareke/everybody-codes/actions/workflows/app.yml/badge.svg)
+# [Everybody Codes](https://everybody.codes) ![status](https://github.com/pmareke/everybody-codes/actions/workflows/app.yml/badge.svg)
 
 ## Requirements
 
