@@ -12,34 +12,12 @@ wheels = [
 ]
 
 [[package]]
-name = "doublex"
-version = "1.9.6.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyhamcrest" },
-    { name = "six" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/fe/3d/0edaecbafa90c19530739467a5dd02c8ebf9968201ab1ff15537ea98422f/doublex-1.9.6.1.tar.gz", hash = "sha256:48fbc633598eb913a6eb0c4694f8c040ba57bae9653d45643a84243e0c9f3268", size = 15734 }
-
-[[package]]
-name = "doublex-expects"
-version = "0.7.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "doublex" },
-    { name = "expects" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/ce/e8/677f10ca523396283343a478265fbeb84e12a84406f5e6ec8b3b7d448982/doublex-expects-0.7.1.tar.gz", hash = "sha256:8040682d97f0a66f632c5df982f78d09aee36b2c4a1eb275b0c596d115f200aa", size = 6636 }
-
-[[package]]
 name = "everybody-codes"
 version = "0.1.0"
 source = { virtual = "." }
 
 [package.dev-dependencies]
 dev = [
-    { name = "doublex" },
-    { name = "doublex-expects" },
     { name = "expects" },
     { name = "pytest" },
     { name = "ruff" },
@@ -50,8 +28,6 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "doublex", specifier = ">=1.9.6.1" },
-    { name = "doublex-expects", specifier = ">=0.7.1" },
     { name = "expects", specifier = ">=0.9.0" },
     { name = "pytest", specifier = ">=7.4.4" },
     { name = "ruff", specifier = ">=0.2" },
@@ -101,15 +77,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pyhamcrest"
-version = "2.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/16/3f/f286caba4e64391a8dc9200e6de6ce0d07471e3f718248c3276843b7793b/pyhamcrest-2.1.0.tar.gz", hash = "sha256:c6acbec0923d0cb7e72c22af1926f3e7c97b8e8d69fc7498eabacaf7c975bd9c", size = 60538 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/0c/71/1b25d3797a24add00f6f8c1bb0ac03a38616e2ec6606f598c1d50b0b0ffb/pyhamcrest-2.1.0-py3-none-any.whl", hash = "sha256:f6913d2f392e30e0375b3ecbd7aee79e5d1faa25d345c8f4ff597665dcac2587", size = 54555 },
-]
-
-[[package]]
 name = "pytest"
 version = "8.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -148,15 +115,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/7c/91/263e33ab93ab09ca06ce4f8f8547a858cc198072f873ebc9be7466790bae/ruff-0.11.13-py3-none-win32.whl", hash = "sha256:96c27935418e4e8e77a26bb05962817f28b8ef3843a6c6cc49d8783b5507f250", size = 10474944 },
     { url = "https://files.pythonhosted.org/packages/46/f4/7c27734ac2073aae8efb0119cae6931b6fb48017adf048fdf85c19337afc/ruff-0.11.13-py3-none-win_amd64.whl", hash = "sha256:29c3189895a8a6a657b7af4e97d330c8a3afd2c9c8f46c81e2fc5a31866517e3", size = 11548669 },
     { url = "https://files.pythonhosted.org/packages/ec/bf/b273dd11673fed8a6bd46032c0ea2a04b2ac9bfa9c628756a5856ba113b0/ruff-0.11.13-py3-none-win_arm64.whl", hash = "sha256:b4385285e9179d608ff1d2fb9922062663c658605819a6876d8beef0c30b7f3b", size = 10683928 },
-]
-
-[[package]]
-name = "six"
-version = "1.17.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050 },
 ]
 
 [[package]]
