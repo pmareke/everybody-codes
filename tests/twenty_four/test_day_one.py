@@ -32,3 +32,17 @@ class TestDay01:
         result = day_one.part_two()
 
         expect(result).to(equal(expected))
+
+    @pytest.mark.parametrize(
+        "filename, expected",
+        [
+            ("inputs/2024/01_03.example", 30),
+            ("inputs/2024/01_03.in", 27301),
+        ],
+    )
+    def test_solve_part_three(self, filename: str, expected: int) -> None:
+        day_one = DayOne(filename)
+
+        result = day_one.part_three()
+
+        expect(result).to(equal(expected))
